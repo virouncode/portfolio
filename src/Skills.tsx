@@ -11,7 +11,7 @@ import zoom from "/assets/img/zoom-check.png";
 const Skills = () => {
   return (
     <section
-      className="min-h-[calc(100vh-45px)] lg:h-[calc(100vh-50px)] bg-blue-400 flex items-center gap-20 justify-center bg-[url('./assets/img/horizon-animated.svg')] bg-no-repeat bg-center bg-cover scroll-mt-11 lg:scroll-mt-14 px-4 py-6"
+      className="min-h-[calc(100vh-45px)] lg:h-[calc(100vh-50px)] bg-blue-400 flex items-center gap-20 justify-center bg-[url('/assets/img/horizon-animated.svg')] bg-no-repeat bg-center bg-cover scroll-mt-11 lg:scroll-mt-14 px-4 py-6"
       id="skills"
     >
       <div className="flex flex-col gap-4 sm:flex-row justify-between lg:max-w-6xl lg:gap-10">

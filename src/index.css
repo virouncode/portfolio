@@ -8,62 +8,62 @@
     font-style: normal;
     font-weight: 300;
     font-display: swap;
-    src: url(./assets/fonts/Manrope-Light.ttf);
+    src: url(/assets/fonts/Manrope-Light.ttf);
   }
   @font-face {
     font-family: "Manrope";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(./assets/fonts/Manrope-Regular.ttf);
+    src: url(/assets/fonts/Manrope-Regular.ttf);
   }
   @font-face {
     font-family: "Manrope";
     font-style: normal;
     font-weight: medium;
     font-display: swap;
-    src: url(./assets/fonts/Manrope-Medium.ttf);
+    src: url(/assets/fonts/Manrope-Medium.ttf);
   }
   @font-face {
     font-family: "Manrope";
     font-style: normal;
     font-weight: bold;
     font-display: swap;
-    src: url(./assets/fonts/Manrope-Bold.ttf);
+    src: url(/assets/fonts/Manrope-Bold.ttf);
   }
   @font-face {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(./assets/fonts/Inter_18pt-Regular.ttf);
+    src: url(/assets/fonts/Inter_18pt-Regular.ttf);
   }
   @font-face {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url(./assets/fonts/Inter_18pt-Medium.ttf);
+    src: url(/assets/fonts/Inter_18pt-Medium.ttf);
   }
   @font-face {
     font-family: "Inter";
     font-style: normal;
     font-weight: bold;
     font-display: swap;
-    src: url(./assets/fonts/Inter_18pt-Bold.ttf);
+    src: url(/assets/fonts/Inter_18pt-Bold.ttf);
   }
   @font-face {
     font-family: "Lao";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(./assets/fonts/NotoSerifLao-Regular.ttf);
+    src: url(/assets/fonts/NotoSerifLao-Regular.ttf);
   }
   @font-face {
     font-family: "Lao";
     font-style: bold;
     font-weight: bold;
     font-display: swap;
-    src: url(./assets/fonts/NotoSerifLao-Bold.ttf);
+    src: url(/assets/fonts/NotoSerifLao-Bold.ttf);
   }
 }

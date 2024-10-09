@@ -17,7 +17,7 @@ const Hero = () => {
   };
   return (
     <section
-      className="h-[calc(100vh-45px)] lg:h-[calc(100vh-50px)] bg-blue-400 flex flex-col lg:flex-row items-center lg:gap-16 justify-center bg-[url('./assets/img/horizon-animated.svg')] bg-no-repeat bg-center bg-cover scroll-mt-11 lg:scroll-mt-14"
+      className="h-[calc(100vh-45px)] lg:h-[calc(100vh-50px)] bg-blue-400 flex flex-col lg:flex-row items-center lg:gap-16 justify-center bg-[url('/assets/img/horizon-animated.svg')] bg-no-repeat bg-center bg-cover scroll-mt-11 lg:scroll-mt-14"
       id="hero"
     >
       <div className="flex flex-col justify-center p-4 max-w-full text-center lg:text-left">
