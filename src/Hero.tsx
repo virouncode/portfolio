@@ -1,4 +1,4 @@
-import myResume from "/assets/files/TV_Kattygnarath_resume.pdf";
+import myResume from "/assets/files/TV_KATTYGNARATH_resume.pdf";
 import linkedin from "/assets/img/linkedin.svg";
 import myPhoto from "/assets/img/portrait3.jpg";
 
