@@ -17,7 +17,7 @@ const MobileNav = ({
   };
   return (
     <nav
-      className="fixed bg-transparent top-0 text-xl p-5 font-light z-10  backdrop-blur-3xl w-full h-full flex justify-center items-center translate-x-full transition-transform duration-300 ease-in-out lg:hidden"
+      className="fixed bg-transparent top-0 text-xl p-5 font-light z-10  backdrop-blur-3xl w-full h-full flex justify-center items-center translate-x-full transition-transform duration-300 ease-in-out lg:hidden mt-11"
       ref={mobileNavRef}
     >
       <ul className="flex flex-col gap-2">
