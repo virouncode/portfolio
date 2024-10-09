@@ -1,16 +1,16 @@
 import { useState } from "react";
-import calvinAI from "./assets/img/calvinemrAI.png";
-import calvinBilling from "./assets/img/calvinemrBilling.png";
-import calvinCalendar from "./assets/img/calvinemrCalendar.png";
-import calvinDashboard from "./assets/img/calvinemrDashboard.png";
-import calvinFax from "./assets/img/calvinemrFax.png";
-import calvinMessages from "./assets/img/calvinemrMessages.png";
-import calvinPrescription from "./assets/img/calvinemrPrescription.png";
-import calvinRecord from "./assets/img/calvinemrRecord.png";
-import calvinRoles from "./assets/img/calvinemrRoles.png";
-import calvinLogo from "./assets/img/calvinLogo.png";
-import next from "./assets/img/next.png";
-import previous from "./assets/img/previous.png";
+import calvinAI from "/assets/img/calvinemrAI.png";
+import calvinBilling from "/assets/img/calvinemrBilling.png";
+import calvinCalendar from "/assets/img/calvinemrCalendar.png";
+import calvinDashboard from "/assets/img/calvinemrDashboard.png";
+import calvinFax from "/assets/img/calvinemrFax.png";
+import calvinMessages from "/assets/img/calvinemrMessages.png";
+import calvinPrescription from "/assets/img/calvinemrPrescription.png";
+import calvinRecord from "/assets/img/calvinemrRecord.png";
+import calvinRoles from "/assets/img/calvinemrRoles.png";
+import calvinLogo from "/assets/img/calvinLogo.png";
+import next from "/assets/img/next.png";
+import previous from "/assets/img/previous.png";
 
 const calvinProjectImages = [
   calvinCalendar,

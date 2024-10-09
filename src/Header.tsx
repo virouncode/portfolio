@@ -1,5 +1,5 @@
-import cross from "./assets/img/cross.png";
-import burger from "./assets/img/menu.png";
+import cross from "/assets/img/cross.png";
+import burger from "/assets/img/menu.png";
 
 type HeaderProps = {
   mobileNavRef: React.MutableRefObject<HTMLDivElement | null>;

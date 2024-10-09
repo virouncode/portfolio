@@ -1,6 +1,6 @@
-import myResume from "./assets/files/resume.pdf";
-import linkedin from "./assets/img/linkedin.svg";
-import myPhoto from "./assets/img/portrait3.jpg";
+import myResume from "/assets/files/resume.pdf";
+import linkedin from "/assets/img/linkedin.svg";
+import myPhoto from "/assets/img/portrait3.jpg";
 
 const Hero = () => {
   const handleClickContact = async () => {

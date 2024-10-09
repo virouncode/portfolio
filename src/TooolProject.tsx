@@ -1,11 +1,11 @@
 import { useState } from "react";
-import next from "./assets/img/next.png";
-import previous from "./assets/img/previous.png";
-import tooolLogo from "./assets/img/tooolLogo.webp";
-import tooolMainstep from "./assets/img/tooolMainstep.png";
-import tooolMenuExport from "./assets/img/tooolMenuExport.png";
-import tooolPadsMix from "./assets/img/tooolPadsMix.png";
-import tooolProof from "./assets/img/tooolProof.png";
+import next from "/assets/img/next.png";
+import previous from "/assets/img/previous.png";
+import tooolLogo from "/assets/img/tooolLogo.webp";
+import tooolMainstep from "/assets/img/tooolMainstep.png";
+import tooolMenuExport from "/assets/img/tooolMenuExport.png";
+import tooolPadsMix from "/assets/img/tooolPadsMix.png";
+import tooolProof from "/assets/img/tooolProof.png";
 
 const tooolProjectImages = [
   tooolMainstep,

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import CalvinEMRProject from "./CalvinEMRProject";
 import TooolProject from "./TooolProject";
-import nextProject from "./assets/img/nextProject.png";
-import previousProject from "./assets/img/previousProject.png";
+import nextProject from "/assets/img/nextProject.png";
+import previousProject from "/assets/img/previousProject.png";
 const projectsNames = ["calvinemr", "toool"];
 
 const Projects = () => {

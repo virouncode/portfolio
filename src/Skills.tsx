@@ -1,12 +1,12 @@
-import compass from "./assets/img/compass.png";
-import juceLogo from "./assets/img/juceLogo.png";
-import key from "./assets/img/key.png";
-import peace from "./assets/img/peace.png";
-import spy from "./assets/img/spy.png";
-import book from "./assets/img/vocabulary.png";
-import xanoLogo from "./assets/img/xanoLogo.jpg";
-import zoom from "./assets/img/zoom-check.png";
 import CustomStackIcon from "./CustomStackIcon";
+import compass from "/assets/img/compass.png";
+import juceLogo from "/assets/img/juceLogo.png";
+import key from "/assets/img/key.png";
+import peace from "/assets/img/peace.png";
+import spy from "/assets/img/spy.png";
+import book from "/assets/img/vocabulary.png";
+import xanoLogo from "/assets/img/xanoLogo.jpg";
+import zoom from "/assets/img/zoom-check.png";
 
 const Skills = () => {
   return (
