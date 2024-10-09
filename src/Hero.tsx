@@ -20,7 +20,7 @@ const Hero = () => {
       className="h-[calc(100vh-45px)] lg:h-[calc(100vh-50px)] bg-blue-400 flex flex-col lg:flex-row items-center lg:gap-16 justify-center bg-[url('./assets/img/horizon-animated.svg')] bg-no-repeat bg-center bg-cover scroll-mt-11 lg:scroll-mt-14"
       id="hero"
     >
-      <div className="flex flex-col justify-center p-4 max-w-full">
+      <div className="flex flex-col justify-center p-4 max-w-full text-center lg:text-left">
         <h2 className="text-3xl lg:text-5xl">
           Hello, I am Viroun.{" "}
           <span className="font-display font-bold hover:opacity-80 hidden lg:inline">
