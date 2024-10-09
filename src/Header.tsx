@@ -30,7 +30,7 @@ const Header = ({
           ວີຣຸນ
         </a>
       </p>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-6">
         <h1 className="text-sm lg:text-lg cursor-pointer font-light ">
           <a href="#hero" className="hover:opacity-80">
             VIROUN KATTYGNARATH
