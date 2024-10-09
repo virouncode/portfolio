@@ -49,6 +49,7 @@ const CalvinEMRProject = () => {
             <a
               href="https://calvinemr-test-6eda3b670bc7.herokuapp.com/"
               target="_blank"
+              className="inline-block w-full"
             >
               Demo
             </a>
