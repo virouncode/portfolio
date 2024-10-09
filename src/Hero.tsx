@@ -44,7 +44,7 @@ const Hero = () => {
         </p>
         <div className="flex flex-col lg:flex-row items-center  gap-2 lg:gap-4 mt-4">
           <button
-            className="px-4 py-2 rounded-md bg-cream text-sm w-60 hover:bg-opacity-90 hover:ring-1 hover:ring-offset-1 hover:ring-cream"
+            className="px-4 py-2 rounded-md bg-cream text-sm w-60 hover:bg-opacity-90 hover:ring-1 hover:ring-offset-1 hover:ring-cream hover:shadow-lg active:shadow-none active:scale-[98%] transition-transform"
             onClick={handleClickContact}
           >
             Contact me
@@ -53,7 +53,7 @@ const Hero = () => {
           <a
             href={myResume}
             download="TV_Kattygnarath_resume.pdf"
-            className="px-4 py-2 rounded-md bg-cream text-sm inline-block w-60 hover:bg-opacity-90 hover:ring-1 hover:ring-offset-1 hover:ring-cream text-center"
+            className="px-4 py-2 rounded-md bg-cream text-sm inline-block w-60 hover:bg-opacity-90 hover:ring-1 hover:ring-offset-1 hover:ring-cream text-center hover:shadow-lg active:shadow-none active:scale-[98%] transition-transform"
           >
             Download CV
           </a>
