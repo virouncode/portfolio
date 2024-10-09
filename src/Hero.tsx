@@ -1,4 +1,4 @@
-import myResume from "/assets/files/TV_KATTYGNARATH_resume.pdf";
+import myResume from "/assets/TV_KATTYGNARATH_CV.pdf";
 import linkedin from "/assets/img/linkedin.svg";
 import myPhoto from "/assets/img/portrait3.jpg";
 
@@ -52,7 +52,7 @@ const Hero = () => {
           {/* <button className="px-4 py-2 rounded-md bg-cream text-sm w-60 hover:bg-opacity-90 hover:ring-1 hover:ring-offset-1 hover:ring-cream"> */}
           <a
             href={myResume}
-            download="TV_Kattygnarath_resume.pdf"
+            download="TV_KATTYGNARATH_resume.pdf"
             className="px-4 py-2 rounded-md bg-cream text-sm inline-block w-60 hover:bg-opacity-90 hover:ring-1 hover:ring-offset-1 hover:ring-cream text-center hover:shadow-lg active:shadow-none active:scale-[98%] transition-transform"
           >
             Download CV
