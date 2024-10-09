@@ -49,15 +49,15 @@ const Hero = () => {
           >
             Contact me
           </button>
-          <button className="px-4 py-2 rounded-md bg-cream text-sm w-60 hover:bg-opacity-90 hover:ring-1 hover:ring-offset-1 hover:ring-cream">
-            <a
-              href={myResume}
-              download="TV_Kattygnarath_resume.pdf"
-              className="inline-block w-full"
-            >
-              Download CV
-            </a>
-          </button>
+          {/* <button className="px-4 py-2 rounded-md bg-cream text-sm w-60 hover:bg-opacity-90 hover:ring-1 hover:ring-offset-1 hover:ring-cream"> */}
+          <a
+            href={myResume}
+            download="TV_Kattygnarath_resume.pdf"
+            className="px-4 py-2 rounded-md bg-cream text-sm inline-block w-60 hover:bg-opacity-90 hover:ring-1 hover:ring-offset-1 hover:ring-cream text-center"
+          >
+            Download CV
+          </a>
+          {/* </button> */}
           <div className="hover:opacity-80">
             <a
               href="https://www.linkedin.com/in/viroun-kattygnarath-823a53a5"
