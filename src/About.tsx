@@ -14,7 +14,7 @@ const About = () => {
             </span>{" "}
             in 2007 at{" "}
             <a
-              className="text-blue-400 font-bold hover:underline"
+              className="text-blue-400 font-bold hover:underline underline lg:no-underline"
               href="https://www.isae-supmeca.fr/"
               target="_blank"
             >
@@ -82,7 +82,7 @@ const About = () => {
               <li className="mb-4">
                 2004-2007:{" "}
                 <a
-                  className="hover:underline"
+                  className="hover:underline  underline lg:no-underline"
                   href="https://www.isae-supmeca.fr/"
                   target="_blank"
                 >
@@ -96,7 +96,7 @@ const About = () => {
               <li className="mb-4">
                 2001-2004:{" "}
                 <a
-                  className="hover:underline"
+                  className="hover:underline  underline lg:no-underline"
                   href="https://pia.ac-paris.fr/serail/jcms/s1_2080084/fr/accueil"
                   target="_blank"
                 >
@@ -111,7 +111,7 @@ const About = () => {
               <li className="mb-4">
                 2010-2015:{" "}
                 <a
-                  className="hover:underline"
+                  className="hover:underline  underline lg:no-underline"
                   href="https://www.imep.pro"
                   target="_blank"
                 >
