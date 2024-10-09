@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import next from "/assets/img/next.png";
 import previous from "/assets/img/previous.png";
 import tooolLogo from "/assets/img/tooolLogo.webp";
@@ -16,6 +16,23 @@ const tooolProjectImages = [
 
 const TooolProject = () => {
   const [projectImg, setProjectImg] = useState(0);
+  const [preloadedImages, setPreloadedImages] = useState<HTMLImageElement[]>(
+    []
+  );
+  useEffect(() => {
+    // Function to preload images
+    const preloadImages = () => {
+      const loadedImages = tooolProjectImages.map((img) => {
+        const image = new Image();
+        image.src = img; // Set the src to the image path
+        return image; // Return the Image object
+      });
+      setPreloadedImages(loadedImages); // Store the loaded images in state
+    };
+
+    preloadImages(); // Call the preload function on component mount
+  }, []);
+
   const handleClickNext = () => {
     setProjectImg((index) => (index + 1) % tooolProjectImages.length);
   };
@@ -34,7 +51,6 @@ const TooolProject = () => {
               <img src={tooolLogo} alt="toool-app-logo" />
             </div>
           </div>
-          {/* <button className="px-4 py-2 rounded-md bg-blue-400 text-sm w-60 hover:bg-opacity-90 hover:ring-1 hover:ring-offset-1 hover:ring-blue-400 text-cream"> */}
           <a
             href="https://www.toool.fr"
             target="_blank"
@@ -42,7 +58,6 @@ const TooolProject = () => {
           >
             Demo
           </a>
-          {/* </button> */}
         </div>
         <div className="text-sm text-justify">
           <span className="text-blue-400 font-bold">
@@ -74,8 +89,8 @@ const TooolProject = () => {
         />
         <div className="flex-1 h-full flex justify-center">
           <img
-            src={tooolProjectImages[projectImg]}
-            alt="toool-screenshot"
+            src={preloadedImages[projectImg]?.src}
+            alt={`Screenshot of Toool App: ${projectImg}`}
             className="object-contain h-full"
           />
         </div>

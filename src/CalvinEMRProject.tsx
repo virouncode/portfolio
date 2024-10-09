@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import calvinAI from "/assets/img/calvinemrAI.png";
 import calvinBilling from "/assets/img/calvinemrBilling.png";
 import calvinCalendar from "/assets/img/calvinemrCalendar.png";
@@ -25,6 +25,24 @@ const calvinProjectImages = [
 ];
 const CalvinEMRProject = () => {
   const [projectImg, setProjectImg] = useState(0);
+  const [preloadedImages, setPreloadedImages] = useState<HTMLImageElement[]>(
+    []
+  );
+
+  useEffect(() => {
+    // Function to preload images
+    const preloadImages = () => {
+      const loadedImages = calvinProjectImages.map((img) => {
+        const image = new Image();
+        image.src = img; // Set the src to the image path
+        return image; // Return the Image object
+      });
+      setPreloadedImages(loadedImages); // Store the loaded images in state
+    };
+
+    preloadImages(); // Call the preload function on component mount
+  }, []);
+
   const handleClickNext = () => {
     setProjectImg((index) => (index + 1) % calvinProjectImages.length);
   };
@@ -45,7 +63,6 @@ const CalvinEMRProject = () => {
               <img src={calvinLogo} alt="calvinemr-logo" />
             </div>
           </div>
-          {/* <button className="px-4 py-2 rounded-md bg-blue-400 text-sm w-60 hover:bg-opacity-90 hover:ring-1 hover:ring-offset-1 hover:ring-blue-400 text-cream"> */}
           <a
             href="https://calvinemr-test-6eda3b670bc7.herokuapp.com/"
             target="_blank"
@@ -53,7 +70,6 @@ const CalvinEMRProject = () => {
           >
             Demo
           </a>
-          {/* </button> */}
         </div>
         <div className="text-sm text-justify">
           <span className="text-blue-400 font-bold">Full development </span>of a
@@ -84,8 +100,8 @@ const CalvinEMRProject = () => {
         />
         <div className="flex-1 h-full flex justify-center">
           <img
-            src={calvinProjectImages[projectImg]}
-            alt="calvinemr-screenshot"
+            src={preloadedImages[projectImg]?.src}
+            alt={`Screenshot of Calvin EMR: ${projectImg}`}
             className="object-contain h-full"
           />
         </div>
