@@ -24,7 +24,7 @@ export default function App() {
           }
         });
       },
-      { threshold: 0.5 } // Adjust threshold based on when you want the section to be considered "in view"
+      { threshold: 0.5 }
     );
 
     sections.forEach((section) => {
@@ -55,12 +55,6 @@ export default function App() {
       <Projects />
       <Skills />
       <About />
-      {/* <section
-        className="h-[calc(100vh-50px)] bg-blue-400 flex items-center gap-20 justify-center bg-[url('./assets/img/horizon-animated.svg')] bg-no-repeat bg-center bg-cover scroll-mt-11 lg:scroll-mt-14"
-        id="contact"
-      >
-        Contact
-      </section> */}
     </div>
   );
 }

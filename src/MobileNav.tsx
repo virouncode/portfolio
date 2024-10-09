@@ -53,14 +53,6 @@ const MobileNav = ({
             </span>
           </a>
         </li>
-        {/* <li className="cursor-pointer hover:opacity-80">
-          <a href="#contact">
-            |{" "}
-            <span className={activeSection === "contact" ? "underline" : ""}>
-              Contact
-            </span>
-          </a>
-        </li> */}
       </ul>
     </nav>
   );
