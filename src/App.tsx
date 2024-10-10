@@ -1,12 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 
-import About from "./About";
-import Header from "./Header";
-import Hero from "./Hero";
-import MobileNav from "./MobileNav";
-import Nav from "./Nav";
-import Projects from "./Projects";
-import Skills from "./Skills";
+import About from "./components/About";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import MobileNav from "./components/MobileNav";
+import Nav from "./components/Nav";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
 export default function App() {
   const [activeSection, setActiveSection] = useState("");
