@@ -51,10 +51,12 @@ export default function App() {
         isMobileNavVisible={isMobileNavVisible}
         setIsMobileNavVisible={setIsMobileNavVisible}
       />
-      <Hero />
-      <Projects />
-      <Skills />
-      <About />
+      <main>
+        <Hero />
+        <Projects />
+        <Skills />
+        <About />
+      </main>
     </div>
   );
 }

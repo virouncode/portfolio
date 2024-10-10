@@ -30,29 +30,29 @@ const Skills = () => {
             <CustomStackIcon name="nodejs" label="nodejs/express" />
             {/* <CustomStackIcon name="openai" label="openai" /> */}
             <CustomStackIcon name="c++" label="c++" />
-            <div className="flex flex-col gap-2 items-center">
+            <figure className="flex flex-col gap-2 items-center">
               <img
                 src={juceLogo}
                 alt="juce-framework-logo"
                 className="w-2/3"
                 loading="lazy"
               />
-              <p className="text-xs text-slate-600">juce</p>
-            </div>
+              <figcaption className="text-xs text-slate-600">juce</figcaption>
+            </figure>
             {/* <CustomStackIcon name="html5" label="html5" />
             <CustomStackIcon name="css3" label="css3" /> */}
             {/* <CustomStackIcon name="git" label="git" />
 
             <CustomStackIcon name="figma" label="figma" /> */}
-            <div className="flex flex-col gap-2 items-center">
+            <figure className="flex flex-col gap-2 items-center">
               <img
                 src={xanoLogo}
                 alt="xano-logo"
                 className="w-2/3"
                 loading="lazy"
               />
-              <p className="text-xs text-slate-600">xano</p>
-            </div>
+              <figcaption className="text-xs text-slate-600">xano</figcaption>
+            </figure>
           </div>
         </div>
         <div className="flex flex-col border-2 shadow-md rounded-md  sm:w-1/3 lg:w-1/2">

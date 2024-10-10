@@ -12,6 +12,7 @@ const Projects = () => {
   };
   const handleClickPreviousProject = () => {
     setSelectedProject((index) =>
+  
       index - 1 >= 0 ? index - 1 : projectsNames.length + (index - 1)
     );
   };

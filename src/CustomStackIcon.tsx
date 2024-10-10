@@ -6,10 +6,10 @@ type CustomStackIconProps = {
 };
 const CustomStackIcon = ({ name, label }: CustomStackIconProps) => {
   return (
-    <div className="flex flex-col gap-2 items-center">
+    <figure className="flex flex-col gap-2 items-center">
       <StackIcon name={name} className="w-2/3" />
-      <p className="text-xs text-slate-600">{label}</p>
-    </div>
+      <figcaption className="text-xs text-slate-600">{label}</figcaption>
+    </figure>
   );
 };
 
