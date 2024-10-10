@@ -31,7 +31,12 @@ const Skills = () => {
             {/* <CustomStackIcon name="openai" label="openai" /> */}
             <CustomStackIcon name="c++" label="c++" />
             <div className="flex flex-col gap-2 items-center">
-              <img src={juceLogo} alt="juce-framework-logo" className="w-2/3" />
+              <img
+                src={juceLogo}
+                alt="juce-framework-logo"
+                className="w-2/3"
+                loading="lazy"
+              />
               <p className="text-xs text-slate-600">juce</p>
             </div>
             {/* <CustomStackIcon name="html5" label="html5" />
@@ -40,7 +45,12 @@ const Skills = () => {
 
             <CustomStackIcon name="figma" label="figma" /> */}
             <div className="flex flex-col gap-2 items-center">
-              <img src={xanoLogo} alt="xano-logo" className="w-2/3" />
+              <img
+                src={xanoLogo}
+                alt="xano-logo"
+                className="w-2/3"
+                loading="lazy"
+              />
               <p className="text-xs text-slate-600">xano</p>
             </div>
           </div>
@@ -52,27 +62,57 @@ const Skills = () => {
           <div className="flex-1 bg-blue-400 flex justify-center items-center">
             <ul className="flex flex-col p-4 gap-2 md:gap-4 text-sm md:text-base lg:text-xl">
               <li className="flex items-center">
-                <img src={key} alt="key-logo" className="w-5 mr-2" />
+                <img
+                  src={key}
+                  alt="key-logo"
+                  className="w-5 mr-2"
+                  loading="lazy"
+                />
                 <p>Problem-solving</p>
               </li>
               <li className="flex items-center">
-                <img src={zoom} alt="zoom-logo" className="w-5 mr-2" />
+                <img
+                  src={zoom}
+                  alt="zoom-logo"
+                  className="w-5 mr-2"
+                  loading="lazy"
+                />
                 <p>Attention to detail</p>
               </li>
               <li className="flex items-center">
-                <img src={spy} alt="spy-logo" className="w-5 mr-2" />
+                <img
+                  src={spy}
+                  alt="spy-logo"
+                  className="w-5 mr-2"
+                  loading="lazy"
+                />
                 <p>Curiosity</p>
               </li>
               <li className="flex items-center">
-                <img src={book} alt="book-logo" className="w-5 mr-2" />
+                <img
+                  src={book}
+                  alt="book-logo"
+                  className="w-5 mr-2"
+                  loading="lazy"
+                />
                 <p>Eagerness to learn</p>
               </li>
               <li className="flex items-center">
-                <img src={peace} alt="peace-logo" className="w-5 mr-2" />
+                <img
+                  src={peace}
+                  alt="peace-logo"
+                  className="w-5 mr-2"
+                  loading="lazy"
+                />
                 <p>Composure</p>
               </li>
               <li className="flex items-center">
-                <img src={compass} alt="compass-logo" className="w-5 mr-2" />
+                <img
+                  src={compass}
+                  alt="compass-logo"
+                  className="w-5 mr-2"
+                  loading="lazy"
+                />
                 <p>Autonomy</p>
               </li>
             </ul>
