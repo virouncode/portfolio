@@ -19,6 +19,7 @@ const MobileNav = ({
     <nav
       className="fixed bg-transparent top-0 text-xl p-5 font-light z-10  backdrop-blur-3xl w-full h-full flex justify-center items-center translate-x-full transition-transform duration-300 ease-in-out lg:hidden mt-11"
       ref={mobileNavRef}
+      aria-label="mobile-navigation"
     >
       <ul className="flex flex-col gap-2">
         <li className="cursor-pointer hover:opacity-80" onClick={handleClick}>
