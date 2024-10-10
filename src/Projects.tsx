@@ -23,13 +23,13 @@ const Projects = () => {
       <div className="md:absolute md:top-0 md:right-0 md:p-2 flex gap-2">
         <img
           src={previousProject}
-          alt="previous-project"
+          alt="previous-project-arrow"
           className="w-8 cursor-pointer hover:opacity-80"
           onClick={handleClickPreviousProject}
         />
         <img
           src={nextProject}
-          alt="next-project"
+          alt="next-project-arrow"
           className="w-8 cursor-pointer hover:opacity-80"
           onClick={handleClickNextProject}
         />

@@ -31,7 +31,7 @@ const Skills = () => {
             {/* <CustomStackIcon name="openai" label="openai" /> */}
             <CustomStackIcon name="c++" label="c++" />
             <div className="flex flex-col gap-2 items-center">
-              <img src={juceLogo} alt="juce-logo" className="w-2/3" />
+              <img src={juceLogo} alt="juce-framework-logo" className="w-2/3" />
               <p className="text-xs text-slate-600">juce</p>
             </div>
             {/* <CustomStackIcon name="html5" label="html5" />

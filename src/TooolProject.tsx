@@ -83,7 +83,7 @@ const TooolProject = () => {
       <div className="flex justify-between items-center gap-2 lg:px-20 lg:py-5 flex-1 overflow-hidden w-full">
         <img
           src={previous}
-          alt="previous"
+          alt="previous-arrow"
           className="w-6 lg:w-8 cursor-pointer hover:opacity-80"
           onClick={handleClickPrevious}
         />
@@ -96,7 +96,7 @@ const TooolProject = () => {
         </div>
         <img
           src={next}
-          alt="next"
+          alt="next-arrow"
           className="w-6 lg:w-8 cursor-pointer hover:opacity-80"
           onClick={handleClickNext}
         />

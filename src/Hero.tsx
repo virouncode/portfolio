@@ -70,7 +70,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-40 h-40  lg:w-60 lg:h-60 rounded-full overflow-hidden -order-1 lg:order-1">
-        <img src={myPhoto} alt="my-photo" />
+        <img src={myPhoto} alt="photo of Viroun Kattygnarath" />
       </div>
     </section>
   );

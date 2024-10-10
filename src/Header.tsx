@@ -37,7 +37,10 @@ const Header = ({
           </a>
         </h1>
         <div className="lg:hidden w-4 cursor-pointer" onClick={handleMobileNav}>
-          <img src={isMobileNavVisible ? cross : burger} alt="mobile-menu" />
+          <img
+            src={isMobileNavVisible ? cross : burger}
+            alt="mobile-menu-logo"
+          />
         </div>
       </div>
     </header>
