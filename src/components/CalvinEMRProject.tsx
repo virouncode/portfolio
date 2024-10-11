@@ -95,7 +95,7 @@ const CalvinEMRProject = () => {
         <img
           src={previous}
           alt="previous-arrow"
-          className="w-6 lg:w-8 cursor-pointer hover:opacity-80"
+          className="w-6 lg:w-8 cursor-pointer hover:opacity-80 active:scale-95"
           onClick={handleClickPrevious}
         />
         <div className="flex-1 h-full flex justify-center">
@@ -108,7 +108,7 @@ const CalvinEMRProject = () => {
         <img
           src={next}
           alt="next-arrow"
-          className="w-6 lg:w-8 cursor-pointer hover:opacity-80"
+          className="w-6 lg:w-8 cursor-pointer hover:opacity-80 active:scale-95"
           onClick={handleClickNext}
         />
       </div>

@@ -26,13 +26,13 @@ const Projects = () => {
           <img
             src={previousProject}
             alt="previous-project-arrow"
-            className="w-8 cursor-pointer hover:opacity-80"
+            className="w-8 cursor-pointer hover:opacity-80 active:scale-95"
             onClick={handleClickPreviousProject}
           />
           <img
             src={nextProject}
             alt="next-project-arrow"
-            className="w-8 cursor-pointer hover:opacity-80"
+            className="w-8 cursor-pointer hover:opacity-80 active:scale-95"
             onClick={handleClickNextProject}
           />
         </div>
