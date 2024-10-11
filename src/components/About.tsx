@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <section
-      className="lg:min-h-[calc(100vh-50px)] bg-cream scroll-mt-11 lg:scroll-mt-14 flex justify-center items-center"
+      className="min-h-[calc(100vh-45px)] lg:min-h-[calc(100vh-50px)] bg-cream scroll-mt-11 lg:scroll-mt-14 flex justify-center items-center"
       id="about"
     >
       <div className="max-w-2xl lg:max-w-[1700px] lg:w-4/5 flex flex-col lg:flex-row items-start gap-4 lg:gap-20 justify-between p-8">
