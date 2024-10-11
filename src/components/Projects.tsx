@@ -17,12 +17,12 @@ const Projects = () => {
   };
   return (
     <section
-      className="min-h-[calc(100vh-45px)] lg:h-[calc(100vh-50px)] bg-cream scroll-mt-11 lg:scroll-mt-14 flex justify-center items-center"
+      className="min-h-[calc(100vh-45px)] lg:h-[calc(100vh-50px)] bg-cream scroll-mt-11 lg:scroll-mt-14 flex justify-center items-center relative"
       id="projects"
     >
-      <div className="flex flex-col items-center justify-center gap-4 p-8 relative max-w-[1700px] h-full">
+      <div className="flex flex-col items-center justify-center gap-4 p-10 md:p-8 max-w-[1700px] h-full">
         <h2 className="absolute -left-full">My Projects</h2>
-        <div className="md:absolute md:top-0 md:right-0  md:p-8 flex gap-2">
+        <div className="absolute top-0 right-1/2 md:right-0  p-2 md:p-8 flex gap-2 translate-x-1/2 md:translate-x-0">
           <img
             src={previousProject}
             alt="previous-project-arrow"
