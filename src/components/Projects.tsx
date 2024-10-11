@@ -17,7 +17,7 @@ const Projects = () => {
   };
   return (
     <section
-      className="h-[calc(100vh-45px)] lg:h-[calc(100vh-50px)] bg-cream scroll-mt-11 lg:scroll-mt-14 flex justify-center items-center"
+      className="min-h-[calc(100vh-45px)] lg:h-[calc(100vh-50px)] bg-cream scroll-mt-11 lg:scroll-mt-14 flex justify-center items-center"
       id="projects"
     >
       <div className="flex flex-col items-center justify-center gap-4 p-8 relative max-w-[1700px] h-full">
