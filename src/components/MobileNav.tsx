@@ -22,7 +22,10 @@ const MobileNav = ({
       aria-label="mobile-navigation"
     >
       <ul className="flex flex-col gap-2">
-        <li className="cursor-pointer hover:opacity-80" onClick={handleClick}>
+        <li
+          className="cursor-pointer hover:opacity-80 active:scale-95 transition-all duration-200 ease-in-out"
+          onClick={handleClick}
+        >
           <a href="#hero">
             |{" "}
             <span className={activeSection === "hero" ? "underline" : ""}>
@@ -30,7 +33,10 @@ const MobileNav = ({
             </span>
           </a>
         </li>
-        <li className="cursor-pointer hover:opacity-80" onClick={handleClick}>
+        <li
+          className="cursor-pointer hover:opacity-80 active:scale-95 transition-all duration-200 ease-in-out"
+          onClick={handleClick}
+        >
           <a href="#projects">
             |{" "}
             <span className={activeSection === "projects" ? "underline" : ""}>
@@ -38,7 +44,10 @@ const MobileNav = ({
             </span>
           </a>
         </li>
-        <li className="cursor-pointer hover:opacity-80" onClick={handleClick}>
+        <li
+          className="cursor-pointer hover:opacity-80 active:scale-95 transition-all duration-200 ease-in-out"
+          onClick={handleClick}
+        >
           <a href="#skills">
             |{" "}
             <span className={activeSection === "skills" ? "underline" : ""}>
@@ -46,7 +55,10 @@ const MobileNav = ({
             </span>
           </a>
         </li>
-        <li className="cursor-pointer hover:opacity-80" onClick={handleClick}>
+        <li
+          className="cursor-pointer hover:opacity-80 active:scale-95 transition-all duration-200 ease-in-out"
+          onClick={handleClick}
+        >
           <a href="#about">
             |{" "}
             <span className={activeSection === "about" ? "underline" : ""}>

@@ -67,3 +67,11 @@
     src: url(/assets/fonts/NotoSerifLao-Bold.ttf);
   }
 }
+
+@layer components {
+  .fixed-menu {
+    position: fixed;
+    bottom: 0;
+    right: calc(max(0px, (100vw - 1700px) / 2));
+  }
+}
