@@ -4,7 +4,7 @@ const About = () => {
       className="lg:min-h-[calc(100vh-50px)] bg-cream scroll-mt-11 lg:scroll-mt-14 flex justify-center items-center"
       id="about"
     >
-      <div className="p-5 max-w-2xl lg:max-w-[1700px] lg:w-4/5 flex flex-col lg:flex-row items-start gap-4 lg:gap-20 justify-between">
+      <div className="max-w-2xl lg:max-w-[1700px] lg:w-4/5 flex flex-col lg:flex-row items-start gap-4 lg:gap-20 justify-between p-8">
         <h2 className="absolute -left-full">About me</h2>
         <div className="lg:w-1/2 text-sm text-justify">
           <h3 className="text-xl font-bold mb-6">My path</h3>

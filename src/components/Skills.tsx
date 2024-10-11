@@ -11,10 +11,10 @@ import zoom from "/assets/img/zoom-check.png";
 const Skills = () => {
   return (
     <section
-      className="min-h-[calc(100vh-45px)] lg:h-[calc(100vh-50px)] bg-blue-400  bg-[url('/assets/img/horizon-animated.svg')] bg-no-repeat bg-center bg-cover scroll-mt-11 lg:scroll-mt-14 px-4 py-6 flex justify-center items-center"
+      className="min-h-[calc(100vh-45px)] lg:h-[calc(100vh-50px)] bg-blue-400  bg-[url('/assets/img/horizon-animated.svg')] bg-no-repeat bg-center bg-cover scroll-mt-11 lg:scroll-mt-14  flex justify-center items-center"
       id="skills"
     >
-      <div className="flex items-center gap-20 justify-center max-w-[1700px]">
+      <div className="flex items-center gap-20 justify-center max-w-[1700px] p-8">
         <h2 className="absolute -left-full">My Skills</h2>
         <div className="flex flex-col gap-4 sm:flex-row justify-between lg:max-w-6xl lg:gap-10">
           <div className="flex flex-col border-2 shadow-md rounded-md sm:w-2/3 lg:w-1/2">
