@@ -86,8 +86,9 @@ const CalvinEMRProject = () => {
           <br />
           <p>
             <span className="text-blue-400 font-bold">Key features</span>:
-            Role-based authentication, shared calendar, SMS, Email, Efax,
-            Prescriptions management, AI, Billing management, XML export
+            Real-time update through web sockets, Role-based authentication,
+            shared calendar, SMS, Email, Efax, Prescriptions management, AI,
+            Billing management, XML export
           </p>
         </div>
       </div>
