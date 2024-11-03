@@ -1,6 +1,6 @@
 import myResume from "/assets/TV_KATTYGNARATH_CV.pdf";
 import linkedin from "/assets/img/linkedin.svg";
-import myPhoto from "/assets/img/portrait3.jpg";
+import myPhoto from "/assets/img/newPortrait.jpg";
 
 const Hero = () => {
   const handleClickContact = async () => {
