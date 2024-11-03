@@ -1,8 +1,11 @@
-import myResume from "/assets/TV_KATTYGNARATH_CV.pdf";
+import myResumeEn from "/assets/TV_KATTYGNARATH_CV_EN.pdf";
+import myResumeFr from "/assets/TV_KATTYGNARATH_CV_FR.pdf";
 import linkedin from "/assets/img/linkedin.svg";
 import myPhoto from "/assets/img/newPortrait.jpg";
 
 const Hero = () => {
+  const userLanguage = navigator.language;
+  // Define the href based on the language
   const handleClickContact = async () => {
     try {
       await navigator.clipboard.writeText("virounk@gmail.com");
@@ -51,8 +54,12 @@ const Hero = () => {
           </button>
           {/* <button className="px-4 py-2 rounded-md bg-cream text-sm w-60 hover:bg-opacity-90 hover:ring-1 hover:ring-offset-1 hover:ring-cream"> */}
           <a
-            href={myResume}
-            download="TV_KATTYGNARATH_resume.pdf"
+            href={userLanguage.startsWith("fr") ? myResumeFr : myResumeEn}
+            download={
+              userLanguage.startsWith("fr")
+                ? "TV_KATTYGNARATH_CV_FR.pdf"
+                : "TV_KATTYGNARATH_CV_EN.pdf"
+            }
             className="px-4 py-2 rounded-md bg-cream text-sm inline-block w-60 hover:bg-opacity-90 hover:ring-1 hover:ring-offset-1 hover:ring-cream text-center hover:shadow-lg active:shadow-none active:scale-[98%] transition-transform"
           >
             Download CV
