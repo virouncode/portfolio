@@ -17,7 +17,11 @@ const Carousel = ({ images, imagesPerSlide }: CarouselProps) => {
   }, [images]);
 
   useEffect(() => {
-    if (imageRef.current) setImageWidth(imageRef.current?.offsetWidth ?? 0);
+    const handelResize = () => {
+      if (imageRef.current) setImageWidth(imageRef.current?.offsetWidth ?? 0);
+    };
+    window.addEventListener("resize", handelResize);
+    return () => window.removeEventListener("resize", handelResize);
   }, []);
 
   const handleClickPrevious = () => {
