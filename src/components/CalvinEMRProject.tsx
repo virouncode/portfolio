@@ -1,60 +1,44 @@
-import { useEffect, useState } from "react";
-import calvinAI from "/assets/img/calvinemrAI.png";
-import calvinBilling from "/assets/img/calvinemrBilling.png";
-import calvinCalendar from "/assets/img/calvinemrCalendar.png";
-import calvinDashboard from "/assets/img/calvinemrDashboard.png";
-import calvinFax from "/assets/img/calvinemrFax.png";
-import calvinMessages from "/assets/img/calvinemrMessages.png";
-import calvinPrescription from "/assets/img/calvinemrPrescription.png";
-import calvinRecord from "/assets/img/calvinemrRecord.png";
-import calvinRoles from "/assets/img/calvinemrRoles.png";
+import Carousel from "./Carousel";
 import calvinLogo from "/assets/img/calvinLogo.png";
-import next from "/assets/img/next.png";
-import previous from "/assets/img/previous.png";
 
-const calvinProjectImages = [
-  calvinCalendar,
-  calvinRecord,
-  calvinMessages,
-  calvinFax,
-  calvinPrescription,
-  calvinAI,
-  calvinBilling,
-  calvinRoles,
-  calvinDashboard,
+const calvinEMRImages = [
+  {
+    id: 1,
+    url: "/assets/img/calvinemrCalendar.png",
+    title: "CalvinEMR Calendar",
+  },
+  { id: 2, url: "/assets/img/calvinemrRecord.png", title: "CalvinEMR Record" },
+  {
+    id: 3,
+    url: "/assets/img/calvinemrMessages.png",
+    title: "CalvinEMR Messages",
+  },
+  { id: 4, url: "/assets/img/calvinemrFax.png", title: "CalvinEMR Fax" },
+  {
+    id: 5,
+    url: "/assets/img/calvinemrPrescription.png",
+    title: "CalvinEMR Prescription",
+  },
+  { id: 6, url: "/assets/img/calvinemrAI.png", title: "CalvinEMR AI" },
+  {
+    id: 7,
+    url: "/assets/img/calvinemrBilling.png",
+    title: "CalvinEMR Billing",
+  },
+
+  { id: 8, url: "/assets/img/calvinemrRoles.png", title: "CalvinEMR Roles" },
+
+  {
+    id: 9,
+    url: "/assets/img/calvinemrDashboard.png",
+    title: "CalvinEMR Dashboard",
+  },
 ];
 const CalvinEMRProject = () => {
-  const [projectImg, setProjectImg] = useState(0);
-  const [preloadedImages, setPreloadedImages] = useState<HTMLImageElement[]>(
-    []
-  );
-
-  useEffect(() => {
-    // Function to preload images
-    const preloadImages = () => {
-      const loadedImages = calvinProjectImages.map((img) => {
-        const image = new Image();
-        image.src = img; // Set the src to the image path
-        return image; // Return the Image object
-      });
-      setPreloadedImages(loadedImages); // Store the loaded images in state
-    };
-
-    preloadImages(); // Call the preload function on component mount
-  }, []);
-
-  const handleClickNext = () => {
-    setProjectImg((index) => (index + 1) % calvinProjectImages.length);
-  };
-  const handleClickPrevious = () => {
-    setProjectImg((index) =>
-      index - 1 >= 0 ? index - 1 : calvinProjectImages.length + (index - 1)
-    );
-  };
   return (
     <>
-      <div className="md:max-w-3xl">
-        <div className="flex flex-col lg:flex-row items-center mb-5 justify-between">
+      <div className="md:max-w-4xl md:h-1/4">
+        <div className="flex flex-col lg:flex-row items-center mb-5 justify-between md:max-w-3xl">
           <div className="flex gap-4 items-center mb-4 lg:mb-0">
             <h3 className="text-lg font-bold">
               Calvin EMR: Electronic Medical Records
@@ -71,48 +55,30 @@ const CalvinEMRProject = () => {
             Demo
           </a>
         </div>
-        <div className="text-sm text-justify">
+        <div className="text-sm text-justify md:max-w-3xl">
           <span className="text-blue-400 font-bold">Full development </span>of a
           SaaS platform designed to help Ontario (Canada) practitioners
           efficiently manage patient medical records and appointments within a
           medical clinic. In collaboration with a doctor.
         </div>
-        <div className="text-sm text-justify">
+        <div className="text-sm text-justify md:max-w-3xl">
           <span className="text-blue-400 font-bold">Frontend</span>: Typescript,
           React/Vite, React Query, Sass/Scss.
           <br />
-          <span className="text-blue-400 font-bold"> Backend</span>: Typescript,
-          Node js, Express, Xano (database & ORM).
+          <span className="text-blue-400 font-bold md:max-w-3xl"> Backend</span>
+          : Typescript, Node js, Express, Xano (database & ORM).
           <br />
           <p>
-            <span className="text-blue-400 font-bold">Key features</span>:
-            Real-time update through web sockets, Role-based authentication,
+            <span className="text-blue-400 font-bold md:max-w-3xl">
+              Key features
+            </span>
+            : Real-time update through web sockets, Role-based authentication,
             shared calendar, SMS, Email, Efax, Prescriptions management, AI,
             Billing management, XML export
           </p>
         </div>
       </div>
-      <div className="flex justify-between items-center gap-2 lg:px-20 lg:py-5 flex-1 overflow-hidden w-full">
-        <img
-          src={previous}
-          alt="previous-arrow"
-          className="w-6 lg:w-8 cursor-pointer hover:opacity-80 active:scale-95"
-          onClick={handleClickPrevious}
-        />
-        <div className="flex-1 h-full flex justify-center">
-          <img
-            src={preloadedImages[projectImg]?.src}
-            alt={`Screenshot of Calvin EMR: ${projectImg}`}
-            className="object-contain h-full"
-          />
-        </div>
-        <img
-          src={next}
-          alt="next-arrow"
-          className="w-6 lg:w-8 cursor-pointer hover:opacity-80 active:scale-95"
-          onClick={handleClickNext}
-        />
-      </div>
+      <Carousel images={calvinEMRImages} imagesPerSlide={1} />
     </>
   );
 };
