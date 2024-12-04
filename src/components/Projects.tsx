@@ -21,7 +21,7 @@ const Projects = () => {
       id="projects"
     >
       <div className="flex flex-col items-center justify-center gap-4 p-10 md:p-8 max-w-[1700px] h-full overflow-hidden">
-        <h2 className="absolute left-full">My Projects</h2>
+        <h2 className="absolute -left-full">My Projects</h2>
         <div className="absolute top-0 right-1/2 md:right-0  p-2 md:p-8 flex gap-2 translate-x-1/2 md:translate-x-0">
           <img
             src={previousProject}
