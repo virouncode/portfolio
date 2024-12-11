@@ -66,7 +66,7 @@ const CalvinEMRProject = () => {
           React/Vite, React Query, Sass/Scss.
           <br />
           <span className="text-blue-400 font-bold md:max-w-3xl"> Backend</span>
-          : Typescript, Node js, Express, Xano (database & ORM).
+          : Typescript, Node js, Express, Xano.
           <br />
           <p>
             <span className="text-blue-400 font-bold md:max-w-3xl">

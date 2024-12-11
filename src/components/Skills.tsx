@@ -25,10 +25,10 @@ const Skills = () => {
               <CustomStackIcon name="typescript" label="typescript" />
               <CustomStackIcon name="reactjs" label="reactjs" />
               <CustomStackIcon name="reactquery" label="react query" />
-              {/* <CustomStackIcon name="reactrouter" label="react router" /> */}
+              <CustomStackIcon name="nextjs" label="next js" />
               {/* <CustomStackIcon name="vitejs" label="vitejs" /> */}
               <CustomStackIcon name="tailwindcss" label="tailwindcss" />
-              <CustomStackIcon name="sass" label="sass" />
+              {/* <CustomStackIcon name="sass" label="sass" /> */}
               <CustomStackIcon name="nodejs" label="nodejs/express" />
               {/* <CustomStackIcon name="openai" label="openai" /> */}
               <CustomStackIcon name="c++" label="c++" />
