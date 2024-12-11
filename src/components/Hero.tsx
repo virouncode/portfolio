@@ -1,5 +1,5 @@
-import myResumeEn from "/assets/TV_KATTYGNARATH_CV_EN.pdf";
 import myResumeFr from "/assets/TV_KATTYGNARATH_CV_FR.pdf";
+import myResumeEn from "/assets/TV_KATTYGNARATH_RESUME.pdf";
 import linkedin from "/assets/img/linkedin.svg";
 import myPhoto from "/assets/img/newPortrait.jpg";
 
@@ -58,7 +58,7 @@ const Hero = () => {
             download={
               userLanguage.startsWith("fr")
                 ? "TV_KATTYGNARATH_CV_FR.pdf"
-                : "TV_KATTYGNARATH_CV_EN.pdf"
+                : "TV_KATTYGNARATH_RESUME.pdf"
             }
             className="px-4 py-2 rounded-md bg-cream text-sm inline-block w-60 hover:bg-opacity-90 hover:ring-1 hover:ring-offset-1 hover:ring-cream text-center hover:shadow-lg active:shadow-none active:scale-[98%] transition-transform"
           >
