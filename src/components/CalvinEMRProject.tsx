@@ -72,9 +72,9 @@ const CalvinEMRProject = () => {
             <span className="text-blue-400 font-bold md:max-w-3xl">
               Key features
             </span>
-            : Real-time update through web sockets, Role-based authentication,
-            shared calendar, SMS, Email, Efax, Prescriptions management, AI,
-            Billing management, XML export
+            : Real-time update through web sockets, authentication, Role-based
+            access, shared calendar, SMS, Email, Efax, Prescriptions management,
+            AI, Billing management, XML export
           </p>
         </div>
       </div>
