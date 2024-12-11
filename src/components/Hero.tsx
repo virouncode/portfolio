@@ -36,7 +36,7 @@ const Hero = () => {
           Front-end developer based in Paris, France.
         </h3>
         <p className="text-sm lg:text-base max-w-[60ch]">
-          Passionate <span className="text-cream">Frontend React js</span>{" "}
+          Passionate <span className="text-cream">Frontend React/Next js</span>{" "}
           developer
           <br />
           Specializing in building effective and user-friendly{" "}
