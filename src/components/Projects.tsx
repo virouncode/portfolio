@@ -3,7 +3,8 @@ import CalvinEMRProject from "./CalvinEMRProject";
 import TooolProject from "./TooolProject";
 import nextProject from "/assets/img/nextProject.png";
 import previousProject from "/assets/img/previousProject.png";
-const projectsNames = ["calvinemr", "toool"];
+import Fm4AllProject from "./Fm4AllProject";
+const projectsNames = ["fm4all", "calvinemr", "toool"];
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(0);
@@ -36,6 +37,7 @@ const Projects = () => {
             onClick={handleClickNextProject}
           />
         </div>
+        {projectsNames[selectedProject] === "fm4all" && <Fm4AllProject />}
         {projectsNames[selectedProject] === "calvinemr" && <CalvinEMRProject />}
         {projectsNames[selectedProject] === "toool" && <TooolProject />}
       </div>

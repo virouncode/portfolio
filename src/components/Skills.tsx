@@ -22,10 +22,10 @@ const Skills = () => {
               STACK
             </div>
             <div className="flex-1 bg-blue-400 grid grid-cols-3 grid-rows-3 gap-4 md:gap-10 overflow-hidden p-4">
+              <CustomStackIcon name="nextjs" label="next js" />
               <CustomStackIcon name="typescript" label="typescript" />
               <CustomStackIcon name="reactjs" label="reactjs" />
               <CustomStackIcon name="reactquery" label="react query" />
-              <CustomStackIcon name="nextjs" label="next js" />
               {/* <CustomStackIcon name="vitejs" label="vitejs" /> */}
               <CustomStackIcon name="tailwindcss" label="tailwindcss" />
               {/* <CustomStackIcon name="sass" label="sass" /> */}
